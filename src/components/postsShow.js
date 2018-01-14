@@ -29,13 +29,6 @@ class PostShow extends Component {
 
     return (
       <div>
-        <Link to="/" className="btn btn-link">Back to index</Link>
-        <button
-          className="btn btn-danger pull-xs-right"
-          onClick={this.onDeleteClick.bind(this)}
-        >
-          Delete Post
-        </button>
         <h3>
           {post.title}
         </h3>
@@ -45,6 +38,13 @@ class PostShow extends Component {
         <p>
           {post.content}
         </p>
+        <Link to="/" className="btn btn-primary">Back to index</Link>
+        <button
+          className="btn btn-danger pull-xs-right"
+          onClick={this.onDeleteClick.bind(this)}
+        >
+          Delete Post
+        </button>
       </div>
     );
   };

@@ -1,6 +1,14 @@
 body {
   background-color: #2d2637 !important;
 }
+.container {
+  padding: 20px 0;
+}
+
+.container .list-group {
+  max-height: 491px;
+  overflow-y: scroll;
+}
 
 .list-group-item {
   border: 1px solid #485958 !important;
@@ -25,6 +33,7 @@ form a {
 .container .btn-primary {
   background-color: #8d7d6f;
   border: 0;
+  margin-top: 20px;
 }
 .container .btn-primary:hover,
 .container .btn-primary:active,
@@ -38,6 +47,7 @@ form a {
 .container .btn-danger {
   background-color: #823145;
   border: 0;
+  margin-top: 20px;
 }
 .container .btn-danger:hover,
 .container .btn-danger:active:focus,
