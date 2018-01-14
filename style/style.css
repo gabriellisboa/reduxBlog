@@ -1,3 +1,62 @@
+body {
+  background-color: #2d2637 !important;
+}
+
+.list-group-item {
+  border: 1px solid #485958 !important;
+  background-color: #4e4160 !important;
+}
+
 form a {
   margin-left: 10px;
+}
+
+.container h3,
+.container h6,
+.container p,
+.container label,
+.container a,
+.container a:visited,
+.container a:hover,
+.container a:active {
+  color: #DDD;
+}
+
+.container .btn-primary {
+  background-color: #8d7d6f;
+  border: 0;
+}
+.container .btn-primary:hover,
+.container .btn-primary:active,
+.container .btn-primary:focus,
+.container .btn-primary:active:focus {
+  background-color: #c1baa6;
+  color: #485958;
+  border: 0;
+}
+
+.container .btn-danger {
+  background-color: #823145;
+  border: 0;
+}
+.container .btn-danger:hover,
+.container .btn-danger:active:focus,
+.container .btn-danger:active,
+.container .btn-danger:focus {
+  background-color: #AB405B;
+  border: 0;
+}
+
+.container .has-danger,
+.container .has-danger .text-help {
+  color: #AB405B !important;
+}
+
+.container .has-danger .form-control {
+  border-color: #AB405B;
+}
+
+.container .form-group .form-control {
+  background-color: #4E4160;
+  color: #DDD; 
 }
