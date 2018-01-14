@@ -1,5 +1,6 @@
 # reduxBlog
 ```
 > npm install
-> npm start
+> npm run dev
+> npm start (to run express server)
 ```
